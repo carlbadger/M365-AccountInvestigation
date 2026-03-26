@@ -154,7 +154,7 @@ https://raw.githubusercontent.com/merill/microsoft-info/main/_info/MicrosoftApps
 
 ---
 
-## Adapting for Portfolio Companies
+## Adapting for Multiple Companies
 
 - Maintain a dedicated IR admin account per tenant with appropriate Exchange and Graph roles — avoid using personal admin UPNs
 - Store this script in a shared IR runbook repo alongside incident response templates
