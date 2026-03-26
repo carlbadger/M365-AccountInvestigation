@@ -141,17 +141,12 @@ To extend the known Microsoft AppId list, add entries to the `$knownMsftAppIds` 
 https://raw.githubusercontent.com/merill/microsoft-info/main/_info/MicrosoftApps.json
 ```
 
-### Licensing Note
-
-`MailItemsAccessed` requires **E5 or the Microsoft 365 Compliance add-on**. On E3 tenants without this license, the operation is not logged and `03b_MailItemsAccessed.csv` will be empty. This is a material forensic gap — if the account had access to sensitive content, assume passive observation occurred and document accordingly in your incident record.
-
 ---
 
 ## Known Limitations
 
 | Limitation | Detail |
 |------------|--------|
-| **MailItemsAccessed unavailable** | Requires E5 or Compliance add-on. Not present on standard E3. |
 | **UAL retention** | 90 days on E3. Investigations beyond this window return no data. |
 | **Graph sign-in retention** | 30 days interactive / 30 days non-interactive. Entra P1/P2 extends this. |
 | **PS5.1 module conflicts** | ExchangeOnlineManagement and Microsoft.Graph conflict in the same session. Use PowerShell 7 or separate sessions. |
