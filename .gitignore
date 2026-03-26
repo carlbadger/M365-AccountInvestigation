@@ -1,0 +1,3 @@
+# Investigation output folders
+Investigation_*/
+*.csv
