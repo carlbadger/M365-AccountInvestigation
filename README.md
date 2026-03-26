@@ -1,7 +1,6 @@
 # M365 Compromise Investigation Toolkit
 
 Repeatable PowerShell-based forensic investigation script for suspected M365 account compromises.
-Designed for use across multiple portfolio companies running M365 E3 (no E5/Compliance add-on).
 
 ---
 
